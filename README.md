@@ -109,27 +109,37 @@ quadrantChart
 ```mermaid
 gitGraph
   commit id: "Инициализация проекта"
+  
   branch auth_service
   commit id: "Создание API для регистрации пользователя"
   commit id: "Двухфакторная аутентификация"
+  
+  checkout main
   branch catalog_service
   commit id: "Создание библиотеки поиска по названию"
   commit id: "Добавление фильтров"
+  
   checkout main
   branch cart_service
   commit id: "Создание репозитория корзины"
   commit id: "Подключение сессий пользователей"
   merge auth_service
+  
+  checkout main
   branch order_service
   commit id: "Формирование структуры заказа"
   commit id: "Валидация данных заказа"
   merge catalog_service
   commit id: "Интеграция с фильтрами каталога"
+  
+  checkout main
   branch payment_service
   commit id: "Создание методов работы через Payment API"
   commit id: "Обработка успешно завершённых транзакций"
   merge cart_service
   merge order_service
+  
+  checkout main
   merge payment_service
   commit id: "Сборка релизной версии проекта"
 ```
