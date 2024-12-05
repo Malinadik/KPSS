@@ -104,9 +104,9 @@ quadrantChart
 ```
 
 ---
-```mermaid
-## 4. Гит-граф (Gitgraph)
 
+## 4. Гит-граф (Gitgraph)
+```mermaid
 gitGraph
   commit id: "Инициализация проекта"
   branch auth_service
