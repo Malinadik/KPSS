@@ -109,24 +109,24 @@ journey
 ## 3. Квадрант-граф (Приоритизация функций)
 ```mermaid
 quadrantChart
-    title Стоимость и время разработки функций системы
-    x-axis Низкая стоимость --> Высокая стоимость
-    y-axis Низкое время разработки --> Высокое время разработки
-    quadrant-1 Высокая стоимость / Высокое время
-    quadrant-2 Низкая стоимость / Высокое время
-    quadrant-3 Высокая стоимость / Низкое время
-    quadrant-4 Низкая стоимость / Низкое время
+    title Cost and development time of system functions
+    x-axis Low cost --> High cost
+    y-axis Low development time --> High development time
+    quadrant-1 High cost / High time
+    quadrant-2 Low cost / High time
+    quadrant-3 High cost / Low time
+    quadrant-4 Low cost / Low time
     
-    Двухфакторная аутентификация: [0.8, 0.9]
-    Интеграция с несколькими платёжными системами: [0.85, 0.85]
-    Функционал оформления заказа: [0.75, 0.8]
-    Гибкие фильтры и сортировка: [0.4, 0.75]
-    Поддержка API для начисления игровой валюты: [0.5, 0.7]
-    Система рекомендаций: [0.9, 0.4]
-    Интеграция с системой уведомлений: [0.85, 0.35]
-    Функционал избранного: [0.6, 0.5]
-    Базовая функциональность корзины: [0.3, 0.3]
-    Простая авторизация: [0.2, 0.25]
+    Two-factor authentication: [0.8, 0.9]
+    Integration with multiple payment systems: [0.85, 0.85]
+    Order placement functionality: [0.75, 0.8]
+    Flexible filters and sorting: [0.4, 0.75]
+    API support for game currency allocation: [0.5, 0.7]
+    Recommendation system: [0.9, 0.4]
+    Integration with notification system: [0.85, 0.35]
+    Favorites functionality: [0.6, 0.5]
+    Basic cart functionality: [0.3, 0.3]
+    Simple authorization: [0.2, 0.25]
 ```
 
 ---
