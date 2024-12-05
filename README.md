@@ -124,8 +124,8 @@ quadrantChart
     API support for game currency allocation: [0.5, 0.7]
     Recommendation system: [0.9, 0.4]
     Integration with notification system: [0.85, 0.35]
-    Favorites functionality: [0.6, 0.3]
-    Basic cart functionality: [0.3, 0.4]
+    Favorites functionality: [0.6, 0.4]
+    Basic cart functionality: [0.3, 0.3]
     Simple authorization: [0.2, 0.25]
 ```
 Двухфакторная аутентификация: [0.8, 0.9]
