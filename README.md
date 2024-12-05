@@ -1,5 +1,5 @@
 # KPSS
-![KPSS](https://heritage-institute.ru/wp-content/uploads/2019/01/635418e639844a26aa4ed2fb4229ece6.jpg)
+![KPSS](kpss.jpg)
 
 # Диаграммы для проекта "Магазин игровой валюты"
 
